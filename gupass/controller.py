@@ -1,11 +1,11 @@
 #! /usr/bin/env python3
 
 logo = '''
-                    _        _ _     _         
-   /\/\   ___ _ __ | |_ __ _| (_)___| |_       
-  /    \ / _ \ '_ \| __/ _` | | / __| __|      
- / /\/\ \  __/ | | | || (_| | | \__ \ |_       
- \/    \/\___|_| |_|\__\__,_|_|_|___/\__|   
+   ______      ____
+  / ____/_  __/ __ \____ ___________
+ / / __/ / / / /_/ / __ `/ ___/ ___/
+/ /_/ / /_/ / ____/ /_/ (__  |__  )
+\____/\__,_/_/    \__,_/____/____/ 
 '''
 
 import sys
@@ -363,7 +363,7 @@ class Controller():
 def main():
     print(logo)
     print('v', version)
-    print('by sc0tfree')
+    print('by W3Security')
     print()
     controller = Controller()
     controller.main()
