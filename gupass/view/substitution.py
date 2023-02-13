@@ -1,3 +1,4 @@
+from tkinter import *
 import tkinter as Tk
 from functools import partial
 
