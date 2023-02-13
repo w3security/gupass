@@ -1,3 +1,4 @@
+from tkinter import *
 import tkinter as Tk
 import tkinter.filedialog
 import tkinter.messagebox
