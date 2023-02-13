@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import tkinter as Tk
 import tkinter.ttk as ttk
 import tkinter.filedialog
@@ -44,8 +45,8 @@ class MainWindow(Tk.Frame):
         menubar = Tk.Menu(self.master)
                                 
         def do_about_dialog():
-            help_url = 'https://github.com/w3security/gupass/wiki'
-            tkinter.messagebox.showinfo(message='gupass\nv{}\n\nby w3security\n\nFor more information, visit:\n{}\n'.format(version, help_url))
+            help_url = 'https://github.com/sc0tfree/gupass/wiki'
+            tkinter.messagebox.showinfo(message='gupass\nv{}\n\nby sc0tfree\n\nFor more information, visit:\n{}\n'.format(version, help_url))
         
         if sys.platform == 'darwin':
             app_menu = Tk.Menu(menubar, name='apple')

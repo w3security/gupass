@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import tkinter as Tk
 import tkinter.filedialog
 import tkinter.messagebox

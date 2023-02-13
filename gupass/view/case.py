@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 import tkinter as Tk
 import tkinter.messagebox
 
@@ -5,7 +6,7 @@ from functools import partial
 
 from .base import BaseNode
 from .main import center_window
-from ... import model
+from .. import model
 
 class CaseNode(BaseNode):
     '''Change the case of letters in a word
