@@ -1,0 +1,3 @@
+recursive-include gupass/data *.txt
+recursive-include gupass/data *.psv
+include gupass/icons/gupass.gif
