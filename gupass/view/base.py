@@ -1,4 +1,5 @@
 # coding=utf-8
+from tkinter import *
 from tkinter import Frame
 import tkinter as Tk
 from abc import abstractmethod
