@@ -1,6 +1,4 @@
 from tkinter import *
-from tkinter import ttk
-root = Tk()
 import tkinter as Tk
 from functools import partial
 import datetime
