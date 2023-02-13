@@ -1,5 +1,6 @@
 #! /usr/bin/env python
 
+from tkinter import *
 import os
 import threading
 from abc import abstractmethod
